@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import PokemonDetail from "@/components/PokemonDetail"
 const API_URL = "https://pokeapi.co/api/v2/pokemon/"
 export default function Pokedex() {
-
+// yiayiayo
     const [pokeList, setPokeList] = useState([]) // Lista de pokemones
     const [currentPokemon, setCurrentPokemon] = useState({}) // Pokemon actual
     const [index, setIndex] = useState(0)
